@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", Arial, sans-serif;
+  background: linear-gradient(135deg, #1f1f1f, #363636);
+  color: #fff;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2.2rem;
+  font-weight: 900;
+  text-shadow: 2px 2px 10px #000;
+  text-align: center;
+}
+
+input {
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: none;
+  width: 100%;
+  max-width: 350px;
+  font-size: 1rem;
+  outline: none;
+  background: #2c2c2c;
+  color: #fff;
+  box-shadow: inset 0 0 5px #000;
+  margin-bottom: 5px;
+}
+
+button {
+  padding: 12px 18px;
+  background: #4b8df7;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+  margin: 4px;
+  display: flex;
+}
+
+button:hover {
+  background: #2f6fe0;
+}
+
+#btnClearAll {
+  background: #ff4242;
+}
+
+#btnClearAll:hover {
+  background: #d83030;
+}
+
+#stats {
+  margin-top: 15px;
+  opacity: 0.8;
+}
+
+ul {
+  padding: 0;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 450px;
+  list-style: none;
+}
+
+li {
+  background: #2a2a2a;
+  padding: 14px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  transition: 0.2s;
+  box-shadow: 0 2px 6px #0005;
+  gap: 8px;
+}
+
+li:hover {
+  background: #333333;
+}
+
+li.done {
+  background: #2d5f2d;
+  text-decoration: line-through;
+  color: #d6ffd6;
+}
+
+.check,
+.remove {
+  border: none;
+  padding: 8px 12px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.check {
+  background: #00c853;
+  margin-left: auto;
+}
+
+.check:hover {
+  background: #009e42;
+}
+
+.remove {
+  background: #ff3b3b;
+}
+
+.remove:hover {
+  background: #d92c2c;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
+  color: #ccc;
+  font-size: 0.9rem;
+  margin-top: auto;
+  opacity: 0.7;
+}
+#btnDownload {
+  background: #ffa500;
+  position: fixed;
+  right: 14px;
+  top: 15px;
+  transition: 120ms;
+}
+img {
+  width: 20px;
+  height: 20px;
+  transition: 120ms;
+}
+img:hover{
+  opacity: 40%;
+}
+#btnDownload:hover {
+  transform: translateY(-5px);
+  transition: 120ms;
+  background-color: #4b8df7;
+  
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  ul {
+    max-width: 100%;
+  }
+
+  li {
+    padding: 12px;
+    flex-wrap: wrap;
+  }
+
+  .check,
+  .remove {
+    padding: 8px 10px;
+  }
+}
