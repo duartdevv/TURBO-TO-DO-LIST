@@ -47,6 +47,7 @@
 ### Objetivo do projeto
 
 - Praticar lógica, eventos, DOM, e construção de pequenos projetos para portifólio;
+- Acesse aqui: https://duartdevv.github.io/TURBO-TO-DO-LIST/
 
 ### Autor ###
 @DuartDev - todos os direitos reservados.
