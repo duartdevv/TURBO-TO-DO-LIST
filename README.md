@@ -10,18 +10,9 @@
 - Contador automático;
 - Totalmente responsivo 
 - Botão de download da lista:
-    Faz o download de todos os itens da lista em um arquivo .txt, sendo os que estão marcados como CONCLÚIDOS serão destacados na lista. Exemplo > Tarefas 1, 3, 8, 9 marcads como conclúidas. No arquivo de texto ficará assim:
-             [✔] Tarefa 1
-             [ ] Tarefa 2
-             [✔] Tarefa 3
-             [ ] Tarefa 4
-             [ ] Tarefa 5
-             [ ] Tarefa 6
-             [ ] Tarefa 7
-             [✔] Tarefa 8
-             [✔] Tarefa 9
-             [ ] Tarefa 10
-    Caso o usuário tente fazer o download da lista VAZIA, irá ser exibido um pop-up dizendo o mesmo;
+    Faz o download de todos os itens da lista em um arquivo .txt, sendo os que estão marcados como CONCLÚIDOS serão destacados na lista. Exemplo > Tarefas 1, 3, 8, 9 marcads como conclúidas. No arquivo de texto ficará com um símbolo ✔ de "Concluído". Exemplo:
+    [ ✔ ] Tarefa 1
+    Caso o usuário tente fazer o download da lista VAZIA, irá ser exibido um pop-up dizendo que não é possivel realizar o download de uma lista vazia;
 
 ### Layout
 
